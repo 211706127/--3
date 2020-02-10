@@ -89,10 +89,7 @@ def chuli(s):
         # 将阿拉伯数字的值转换成中文数字，并输出
         else:
             print(s_list[1][1:-1])
-            
-##     如果...则...否则 语句
-    elif (s_list[0] == "如果") and len(s_list) == 2:
-        fouze(s)
+
         
 ##     运算语句
     else: 
