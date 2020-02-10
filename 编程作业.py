@@ -133,6 +133,6 @@ def main(s):
                 if s_list[0]=="无":
                     return 0
                 else:
-                    main(s_list[0])
+                    chuli(s_list[0])
     else:
-        main(s)
+        chuli(s)
