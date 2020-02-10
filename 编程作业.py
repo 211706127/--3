@@ -136,3 +136,14 @@ def main(s):
                     chuli(s_list[0])
     else:
         chuli(s)
+        
+        
+while(1):
+
+　　s = input()
+
+　　if s=="break":
+
+　　　　break
+
+　　main(s)
