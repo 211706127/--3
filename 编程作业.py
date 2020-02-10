@@ -128,7 +128,7 @@ def main(s):
 #                 main1(ls)
         if len(s_list)>1:
             if panduan(s_list[-1]):
-                main(s_list[-2])
+                chuli(s_list[-2])
             else:
                 if s_list[0]=="无":
                     return 0
