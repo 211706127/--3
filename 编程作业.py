@@ -139,11 +139,7 @@ def main(s):
         
         
 while(1):
-
-　　s = input()
-
-　　if s=="break":
-
-　　　　break
-
-　　main(s)
+    s = input()
+    if s=="break":
+        break
+    main(s)
