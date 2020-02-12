@@ -93,10 +93,13 @@ def chuli(s):
         
 ##     运算语句
     else: 
-        if s_list[1] == "减少" and len(s_list) == 3:
-            dict1[s_list[0]] = dict1[ s_list[0] ] - change_alb(s_list[2])
-        elif s_list[1] == "增加" and len(s_list) == 3:
-            dict1[s_list[0]] = dict1[ s_list[0] ] + change_alb(s_list[2])
+        if ( s_list[0] in dict1):
+            if s_list[1] == "减少" and len(s_list) == 3:
+                dict1[s_list[0]] = dict1[ s_list[0] ] - change_alb(s_list[2])
+            elif s_list[1] == "增加" and len(s_list) == 3:
+                dict1[s_list[0]] = dict1[ s_list[0] ] + change_alb(s_list[2])
+        else:
+            print("没有这个变量！")
 
 
 #判断
